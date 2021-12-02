@@ -1,0 +1,18 @@
+{
+    "recipes": [
+        {
+            "name": "Sugar Cookie Recipe",
+            "slug": "sugar-cookie-recipe",
+            "text": "Click the image for a sugar cookie recipe!",
+            "image": "sugarcookierecipe.jpg",
+            "link": "www.allrecipes.com/recipe/22850/chewy-sugar-cookies/"
+        },
+        {
+            "name": "Chocolate Cake Recipe",
+            "slug": "chocolate-cake-recipe",
+            "text": "Click the image for a chocolate cake recipe!",
+            "image": "chocolatecakerecipe.jpg",
+            "link": "https://www.allrecipes.com/recipe/17399/jans-chocolate-cake/"
+        }
+    ]
+}
