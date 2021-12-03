@@ -6,13 +6,13 @@
 
 {% block content %}
 <div class="container">
-  <h1>Main headline here</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
+  <h1>Welcome to the Dessert Zone</h1>
+  <p>Here you can find a few tasty treats, and instructions on how to create your own. Enjoy!</p>
   <div class="row">
     {% for recipe in recipes.recipes %}
       <div class="col">
         <img src="img/{{ recipe.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="recipes/{{ recipe.slug }}.html">{{ recipe.name }}</a></h3>
+        <h2><a href="recipes/{{ recipe.slug }}.html">{{ recipe.name }}</a></h2>
       </div>
     {% endfor %}
   </div>
